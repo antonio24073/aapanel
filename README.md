@@ -1,8 +1,25 @@
 # Aapanel Docker Compose
 
-## Inst
+This is a simple example of aapanel docker compose file to customize
 
+## Dependencies
 
+- Docker
+- Docker compose
+
+## Instructions
+
+To run do this command in the project root folder:
+
+```
+docker compose up -d --build 
+```
+
+To stop:
+
+```
+docker compose down
+```
 
 ## Read this:
 
