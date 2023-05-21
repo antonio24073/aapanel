@@ -1,6 +1,6 @@
-# Aapanel Docker Compose
+# Aapanel
 
-This is a simple example of aapanel docker compose file to customize
+This is a aapanel docker compose file to customize
 
 ## Dependencies
 
