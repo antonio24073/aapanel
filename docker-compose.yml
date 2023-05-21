@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  aap:
+    image: antonio24073/aapanel:debian-10-preinstalled
+    container_name: aapanel
+    hostname: aapanel.local
+    ports: 
+      - 7889:7800
+      - 221:21
+      - 222:22
+      - 443:443
+      - 80:80
+      - 889:888
+    volumes:
+      - ./db:/www/server/data 
+      - ./vhost:/www/server/panel/vhost
+      - ./wwwroot:/www/wwwroot
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    env_file:
+      - ./.env
+    cap_add:
+      - NET_ADMIN
