@@ -1,6 +1,6 @@
 # Aapanel
 
-This is a aapanel docker compose file to customize
+Aapanel docker compose file to customize
 
 ## Dependencies
 
