@@ -12,6 +12,7 @@ Aapanel docker compose file to customize
 
 ```
 git clone https://github.com/antonio24073/aapanel.git
+cd aapanel
 ```
 
 ## Instructions
