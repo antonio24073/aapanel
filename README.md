@@ -6,7 +6,6 @@ Aapanel docker compose file to customize
 
 - Docker
 - Docker compose
-- Git
 
 ## Quick Installation
 
@@ -14,6 +13,8 @@ Aapanel docker compose file to customize
 git clone https://github.com/antonio24073/aapanel.git
 cd aapanel
 ```
+
+or download and extract zip
 
 ## Instructions
 
