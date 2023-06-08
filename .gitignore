@@ -1,6 +1,2 @@
-db/*
-!db/.gitkeep
-vhost/*
-!vhost/.gitkeep
-wwwroot/*
-!wwwroot/.gitkeep
+www/*
+!www/.gitkeep
