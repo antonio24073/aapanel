@@ -15,5 +15,6 @@ services:
     volumes:
       - ./www:/www # run without this, the first time, to copy to your host
       - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./temp.sh:/temp.sh
     env_file:
       - ./.env
