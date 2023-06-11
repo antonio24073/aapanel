@@ -14,15 +14,12 @@ git clone https://github.com/antonio24073/aapanel.git
 cd aapanel
 ```
 
-or download and extract zip and go to base folder
-
-
 ## Instructions
 
 To run do this command in the project root folder:
 
 ```
-docker compose up -d --build 
+docker compose up -d --build
 ```
 
 To stop:
@@ -43,5 +40,3 @@ https://hub.docker.com/r/antonio24073/aapanel
 # Donations
 
 Help keep projects free: <a href="https://www.paypal.com/donate/?business=X3W3QTHS7BDW4&no_recurring=0&currency_code=USD" >Click Here</a>
-
-For customized images call me in the github issues

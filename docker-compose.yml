@@ -19,3 +19,9 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     env_file:
       - ./.env
+    # entrypoint: sh /tail.sh # dev mode
+  wt:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 1800
