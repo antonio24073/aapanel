@@ -1,2 +1,6 @@
-www/*
-!www/.gitkeep
+vol/wwwroot/*
+!vol/wwwroot/.gitkeep
+vol/data/*
+!vol/data/.gitkeep
+vol/vhost/*
+!vol/vhost/.gitkeep
