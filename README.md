@@ -32,7 +32,7 @@ docker compose down
 
 https://hub.docker.com/r/antonio24073/aapanel
 
-
+https://github.com/antonio24073/aapanel-updater
 
 
 ----------------------
