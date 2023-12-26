@@ -16,10 +16,19 @@ services:
       - ./vol/wwwroot:/www/wwwroot
       - ./vol/data:/www/server/data
       - ./vol/vhost:/www/server/panel/vhost
+      - ./vol/server/panel/data:/www/server/panel/data
+      - ./vol/wwwlogs:/www/wwwlogs
+      - ./vol/backup:/www/backup
       - /var/run/docker.sock:/var/run/docker.sock:ro
     env_file:
       - ./.env
     # entrypoint: sh /tail.sh # dev mode
+    sysctls:
+      net.ipv6.conf.all.disable_ipv6: 1
+    ulimits:
+      nofile:
+        soft: 1024
+        hard: 1048576
   wt:
     image: containrrr/watchtower
     volumes:

@@ -15,7 +15,7 @@ RUN yum install -y wget
 RUN yum install -y procps
 
 # ini aapanel install
-RUN wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh 
+RUN wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh
 RUN echo 'echo -e "y\nn\n" | bash install.sh aapanel' > inst.sh
 RUN bash inst.sh
 RUN /www/server/panel/pyenv/bin/python3.7 -m pip install --upgrade pip
