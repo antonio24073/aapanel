@@ -1,10 +1,6 @@
 # IMPORTANT
 
-This is an old version for centos 7. The new versions are below:
-
-https://github.com/antonio24073/aapanel-ubuntu-24-04
-https://github.com/antonio24073/aapanel-ubuntu-24-04-preinstalled
-
+This is an old version for centos 7. The new versions are in the updater repo.
 
 # Aapanel Centos 7
 
