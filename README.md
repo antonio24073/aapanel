@@ -2,6 +2,8 @@
 
 This is an old version for centos 7. The new versions are in the updater repo.
 
+https://github.com/antonio24073/aapanel-updater
+
 # Aapanel Centos 7
 
 Aapanel docker compose file to customize
